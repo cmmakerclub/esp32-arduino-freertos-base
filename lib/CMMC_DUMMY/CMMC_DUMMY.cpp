@@ -23,6 +23,6 @@ void CMMC_DUMMY::loop() {
 }
 
 
-float CMMC_DUMMY::getTemperature() {
-  return millis() / 1.0;
+int CMMC_DUMMY::getCounter() {
+  return counter;
 }
